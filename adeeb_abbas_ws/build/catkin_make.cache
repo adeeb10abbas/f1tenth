@@ -1,2 +1,2 @@
-f1tenth_simulator
+f1tenth_simulator:lab1
 -DCATKIN_DEVEL_PREFIX=/home/arrowhead/src/f1/adeeb_abbas_ws/devel -DCMAKE_INSTALL_PREFIX=/home/arrowhead/src/f1/adeeb_abbas_ws/install -G Unix Makefiles

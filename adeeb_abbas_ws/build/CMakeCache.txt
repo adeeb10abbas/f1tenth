@@ -473,6 +473,12 @@ gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 //The directory containing a CMake configuration file for interactive_markers.
 interactive_markers_DIR:PATH=/opt/ros/noetic/share/interactive_markers/cmake
 
+//Value Computed by CMake
+lab1_BINARY_DIR:STATIC=/home/arrowhead/src/f1/adeeb_abbas_ws/build/lab1
+
+//Value Computed by CMake
+lab1_SOURCE_DIR:STATIC=/home/arrowhead/src/f1/adeeb_abbas_ws/src/lab1
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/libinteractive_markers.so
 
@@ -693,7 +699,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
